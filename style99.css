@@ -1,0 +1,96 @@
+
+
+
+/* styling for the main-div */
+.main {
+    display: flex;
+    height: 100vh;
+    
+}
+.leftside{
+    width: 20%;
+    background-color: blueviolet;
+    font-size: 15px;
+
+    
+}
+
+}
+.rightside{
+    width: 80%;
+    background-color: burlywood;
+
+    
+}
+
+/*styling for the right side pf the page*/
+.rightside{
+    display: flex;
+    padding-top: 80px;
+
+}
+
+#contactus{
+    position: absolute;
+    top: 0;
+    left: 800px
+}
+
+.contleft{
+    width: 50%;
+    margin-left:20px;
+    font-size: larger;
+    box-sizing: border-box;
+    text-align: center;
+    
+    /* background-color: chartreuse; */
+}
+.contright{
+    margin-left: 150px;
+    width: 50%;
+    font-size: larger;
+   
+
+    /* background-color: darkcyan; */
+}
+.contright select{
+        background-color: #d9f776;
+        background-position: 30px 30px;
+        background-repeat: no-repeat;
+        padding-left: 80px;  
+        width: 300px;
+        font-size: 15px; 
+}
+input[type=submit] {
+    background-color: #42d5a4;
+    border: none;
+    color: white;
+    padding: 18px 36px;
+    text-decoration: none;
+    margin: 5px 4px;
+    cursor: pointer;  
+    font-size: larger;
+}
+h2{
+    text-align: center;
+}
+ 
+.contleft{
+    width: 300px; 
+    padding: 10px 10px;
+    margin: 5px 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border:solid; 
+}
+
+#username , #password, #email, #answer{
+    width: 500px;
+    height: 30px;
+}
+#bio{
+    width: 500px;
+}
+
+
+
